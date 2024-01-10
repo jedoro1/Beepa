@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C6D26FF2B4E19490056FD45 /* Beepa Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 8C6D26FE2B4E19490056FD45 /* Beepa Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8C6D27042B4E19490056FD45 /* BeepaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6D27032B4E19490056FD45 /* BeepaApp.swift */; };
+		8C6D27062B4E19490056FD45 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6D27052B4E19490056FD45 /* ContentView.swift */; };
+		8C6D27082B4E194E0056FD45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C6D27072B4E194E0056FD45 /* Assets.xcassets */; };
+		8C6D270B2B4E194E0056FD45 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C6D270A2B4E194E0056FD45 /* Preview Assets.xcassets */; };
+		8C6D27152B4E194E0056FD45 /* Beepa_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6D27142B4E194E0056FD45 /* Beepa_Watch_AppTests.swift */; };
+		8C6D271F2B4E194E0056FD45 /* Beepa_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6D271E2B4E194E0056FD45 /* Beepa_Watch_AppUITests.swift */; };
+		8C6D27212B4E194E0056FD45 /* Beepa_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6D27202B4E194E0056FD45 /* Beepa_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C6D27002B4E19490056FD45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C6D26F22B4E19480056FD45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C6D26FD2B4E19490056FD45;
+			remoteInfo = "Beepa Watch App";
+		};
+		8C6D27112B4E194E0056FD45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C6D26F22B4E19480056FD45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C6D26FD2B4E19490056FD45;
+			remoteInfo = "Beepa Watch App";
+		};
+		8C6D271B2B4E194E0056FD45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C6D26F22B4E19480056FD45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C6D26FD2B4E19490056FD45;
+			remoteInfo = "Beepa Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8C6D27272B4E194E0056FD45 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				8C6D26FF2B4E19490056FD45 /* Beepa Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8C6D26F82B4E19490056FD45 /* Beepa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Beepa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C6D26FE2B4E19490056FD45 /* Beepa Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Beepa Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C6D27032B4E19490056FD45 /* BeepaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeepaApp.swift; sourceTree = "<group>"; };
+		8C6D27052B4E19490056FD45 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8C6D27072B4E194E0056FD45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C6D270A2B4E194E0056FD45 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8C6D27102B4E194E0056FD45 /* Beepa Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Beepa Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C6D27142B4E194E0056FD45 /* Beepa_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beepa_Watch_AppTests.swift; sourceTree = "<group>"; };
+		8C6D271A2B4E194E0056FD45 /* Beepa Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Beepa Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C6D271E2B4E194E0056FD45 /* Beepa_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beepa_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		8C6D27202B4E194E0056FD45 /* Beepa_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beepa_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C6D26FB2B4E19490056FD45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C6D270D2B4E194E0056FD45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C6D27172B4E194E0056FD45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C6D26F12B4E19480056FD45 = {
+			isa = PBXGroup;
+			children = (
+				8C6D27022B4E19490056FD45 /* Beepa Watch App */,
+				8C6D27132B4E194E0056FD45 /* Beepa Watch AppTests */,
+				8C6D271D2B4E194E0056FD45 /* Beepa Watch AppUITests */,
+				8C6D26F92B4E19490056FD45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C6D26F92B4E19490056FD45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C6D26F82B4E19490056FD45 /* Beepa.app */,
+				8C6D26FE2B4E19490056FD45 /* Beepa Watch App.app */,
+				8C6D27102B4E194E0056FD45 /* Beepa Watch AppTests.xctest */,
+				8C6D271A2B4E194E0056FD45 /* Beepa Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C6D27022B4E19490056FD45 /* Beepa Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				8C6D27032B4E19490056FD45 /* BeepaApp.swift */,
+				8C6D27052B4E19490056FD45 /* ContentView.swift */,
+				8C6D27072B4E194E0056FD45 /* Assets.xcassets */,
+				8C6D27092B4E194E0056FD45 /* Preview Content */,
+			);
+			path = "Beepa Watch App";
+			sourceTree = "<group>";
+		};
+		8C6D27092B4E194E0056FD45 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8C6D270A2B4E194E0056FD45 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8C6D27132B4E194E0056FD45 /* Beepa Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C6D27142B4E194E0056FD45 /* Beepa_Watch_AppTests.swift */,
+			);
+			path = "Beepa Watch AppTests";
+			sourceTree = "<group>";
+		};
+		8C6D271D2B4E194E0056FD45 /* Beepa Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8C6D271E2B4E194E0056FD45 /* Beepa_Watch_AppUITests.swift */,
+				8C6D27202B4E194E0056FD45 /* Beepa_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "Beepa Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C6D26F72B4E19490056FD45 /* Beepa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C6D27282B4E194E0056FD45 /* Build configuration list for PBXNativeTarget "Beepa" */;
+			buildPhases = (
+				8C6D26F62B4E19490056FD45 /* Resources */,
+				8C6D27272B4E194E0056FD45 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C6D27012B4E19490056FD45 /* PBXTargetDependency */,
+			);
+			name = Beepa;
+			productName = Beepa;
+			productReference = 8C6D26F82B4E19490056FD45 /* Beepa.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		8C6D26FD2B4E19490056FD45 /* Beepa Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C6D27242B4E194E0056FD45 /* Build configuration list for PBXNativeTarget "Beepa Watch App" */;
+			buildPhases = (
+				8C6D26FA2B4E19490056FD45 /* Sources */,
+				8C6D26FB2B4E19490056FD45 /* Frameworks */,
+				8C6D26FC2B4E19490056FD45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Beepa Watch App";
+			productName = "Beepa Watch App";
+			productReference = 8C6D26FE2B4E19490056FD45 /* Beepa Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C6D270F2B4E194E0056FD45 /* Beepa Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C6D272B2B4E194E0056FD45 /* Build configuration list for PBXNativeTarget "Beepa Watch AppTests" */;
+			buildPhases = (
+				8C6D270C2B4E194E0056FD45 /* Sources */,
+				8C6D270D2B4E194E0056FD45 /* Frameworks */,
+				8C6D270E2B4E194E0056FD45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C6D27122B4E194E0056FD45 /* PBXTargetDependency */,
+			);
+			name = "Beepa Watch AppTests";
+			productName = "Beepa Watch AppTests";
+			productReference = 8C6D27102B4E194E0056FD45 /* Beepa Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8C6D27192B4E194E0056FD45 /* Beepa Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C6D272E2B4E194E0056FD45 /* Build configuration list for PBXNativeTarget "Beepa Watch AppUITests" */;
+			buildPhases = (
+				8C6D27162B4E194E0056FD45 /* Sources */,
+				8C6D27172B4E194E0056FD45 /* Frameworks */,
+				8C6D27182B4E194E0056FD45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C6D271C2B4E194E0056FD45 /* PBXTargetDependency */,
+			);
+			name = "Beepa Watch AppUITests";
+			productName = "Beepa Watch AppUITests";
+			productReference = 8C6D271A2B4E194E0056FD45 /* Beepa Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C6D26F22B4E19480056FD45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					8C6D26F72B4E19490056FD45 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					8C6D26FD2B4E19490056FD45 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					8C6D270F2B4E194E0056FD45 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 8C6D26FD2B4E19490056FD45;
+					};
+					8C6D27192B4E194E0056FD45 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 8C6D26FD2B4E19490056FD45;
+					};
+				};
+			};
+			buildConfigurationList = 8C6D26F52B4E19480056FD45 /* Build configuration list for PBXProject "Beepa" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C6D26F12B4E19480056FD45;
+			productRefGroup = 8C6D26F92B4E19490056FD45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C6D26F72B4E19490056FD45 /* Beepa */,
+				8C6D26FD2B4E19490056FD45 /* Beepa Watch App */,
+				8C6D270F2B4E194E0056FD45 /* Beepa Watch AppTests */,
+				8C6D27192B4E194E0056FD45 /* Beepa Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C6D26F62B4E19490056FD45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C6D26FC2B4E19490056FD45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C6D270B2B4E194E0056FD45 /* Preview Assets.xcassets in Resources */,
+				8C6D27082B4E194E0056FD45 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C6D270E2B4E194E0056FD45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C6D27182B4E194E0056FD45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C6D26FA2B4E19490056FD45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C6D27062B4E19490056FD45 /* ContentView.swift in Sources */,
+				8C6D27042B4E19490056FD45 /* BeepaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C6D270C2B4E194E0056FD45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C6D27152B4E194E0056FD45 /* Beepa_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C6D27162B4E194E0056FD45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C6D27212B4E194E0056FD45 /* Beepa_Watch_AppUITestsLaunchTests.swift in Sources */,
+				8C6D271F2B4E194E0056FD45 /* Beepa_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C6D27012B4E19490056FD45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C6D26FD2B4E19490056FD45 /* Beepa Watch App */;
+			targetProxy = 8C6D27002B4E19490056FD45 /* PBXContainerItemProxy */;
+		};
+		8C6D27122B4E194E0056FD45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C6D26FD2B4E19490056FD45 /* Beepa Watch App */;
+			targetProxy = 8C6D27112B4E194E0056FD45 /* PBXContainerItemProxy */;
+		};
+		8C6D271C2B4E194E0056FD45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C6D26FD2B4E19490056FD45 /* Beepa Watch App */;
+			targetProxy = 8C6D271B2B4E194E0056FD45 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8C6D27222B4E194E0056FD45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8C6D27232B4E194E0056FD45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		8C6D27252B4E194E0056FD45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Beepa Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Beepa;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sprinting.Beepa.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		8C6D27262B4E194E0056FD45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Beepa Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Beepa;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sprinting.Beepa.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		8C6D27292B4E194E0056FD45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = Beepa;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sprinting.Beepa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8C6D272A2B4E194E0056FD45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = Beepa;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sprinting.Beepa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C6D272C2B4E194E0056FD45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sprinting.Beepa-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Beepa Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Beepa Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		8C6D272D2B4E194E0056FD45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sprinting.Beepa-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Beepa Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Beepa Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		8C6D272F2B4E194E0056FD45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sprinting.Beepa-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Beepa Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		8C6D27302B4E194E0056FD45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sprinting.Beepa-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Beepa Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C6D26F52B4E19480056FD45 /* Build configuration list for PBXProject "Beepa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C6D27222B4E194E0056FD45 /* Debug */,
+				8C6D27232B4E194E0056FD45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C6D27242B4E194E0056FD45 /* Build configuration list for PBXNativeTarget "Beepa Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C6D27252B4E194E0056FD45 /* Debug */,
+				8C6D27262B4E194E0056FD45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C6D27282B4E194E0056FD45 /* Build configuration list for PBXNativeTarget "Beepa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C6D27292B4E194E0056FD45 /* Debug */,
+				8C6D272A2B4E194E0056FD45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C6D272B2B4E194E0056FD45 /* Build configuration list for PBXNativeTarget "Beepa Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C6D272C2B4E194E0056FD45 /* Debug */,
+				8C6D272D2B4E194E0056FD45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C6D272E2B4E194E0056FD45 /* Build configuration list for PBXNativeTarget "Beepa Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C6D272F2B4E194E0056FD45 /* Debug */,
+				8C6D27302B4E194E0056FD45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C6D26F22B4E19480056FD45 /* Project object */;
+}
